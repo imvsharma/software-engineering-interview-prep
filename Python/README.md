@@ -1,6 +1,6 @@
 # Python — Interview Prep (Beginner to Pro)
 
-Interview-prep docs for **Python**, organized by level: **Beginner** → **Intermediate** → **Advance** → **Expert** → **Pro**. Each level contains nested topic folders with READMEs and content.
+Interview-prep docs for **Python**, organized by level: **Beginner**  **Intermediate**  **Advance**  **Expert**  **Pro**. Each level contains nested topic folders with READMEs and content.
 
 ---
 
@@ -8,11 +8,11 @@ Interview-prep docs for **Python**, organized by level: **Beginner** → **Inter
 
 | Level | Topics | Link |
 | :--- | :--- | :---: |
-| **Beginner** | Fundamentals, Execution Basics, Comments & Docstrings, Input & Output, Operators, Data Types, Data Types Deep Dive, Collections, Control Flow, Conditionals, Loops, Comprehensions, Files, Functions, Command-Line Args, Strings, Modules & Imports, Error Handling, Virtual Environments | [→ Open](Beginner/README.md) |
-| **Intermediate** | Object Model, Functions & Decorators, Error Handling | [→ Open](Intermediate/README.md) |
-| **Advance** | Context Managers, Iterators & Generators, OOP, Concurrency | [→ Open](Advance/README.md) |
-| **Expert** | Metaprogramming, Descriptors, Async Deep Dive | [→ Open](Expert/README.md) |
-| **Pro** | Testing, Packaging, Performance, Production Patterns | [→ Open](Pro/README.md) |
+| **Beginner** | Fundamentals, Execution Basics, Comments & Docstrings, Input & Output, Operators, Data Types, Data Types Deep Dive, Collections, Control Flow, Conditionals, Loops, Comprehensions, Files, Functions, Command-Line Args, Strings, Modules & Imports, Error Handling, Virtual Environments | [Open](Beginner/README.md) |
+| **Intermediate** | Object Model, Functions & Decorators, Error Handling | [Open](Intermediate/README.md) |
+| **Advance** | Context Managers, Iterators & Generators, OOP, Concurrency | [Open](Advance/README.md) |
+| **Expert** | Metaprogramming, Descriptors, Async Deep Dive | [Open](Expert/README.md) |
+| **Pro** | Testing, Packaging, Performance, Production Patterns | [Open](Pro/README.md) |
 
 ---
 
@@ -30,39 +30,39 @@ Interview-prep docs for **Python**, organized by level: **Beginner** → **Inter
 
 | If they ask… | Link |
 | :--- | :---: |
-| Types, namespaces, LEGB, basics | [→ Open](Beginner/Fundamentals/README.md) |
-| REPL vs script, how Python runs .py | [→ Open](Beginner/Execution-Basics/README.md) |
-| Comments, docstrings, PEP 8 | [→ Open](Beginner/Comments-And-Docstrings/README.md) |
-| print(), input(), formatting | [→ Open](Beginner/Input-Output/README.md) |
-| Arithmetic, comparison, logical, is, in | [→ Open](Beginner/Operators/README.md) |
-| Immutables vs mutables, sequences | [→ Open](Beginner/Data-Types/README.md) |
-| int, float, str, bool, type conversion | [→ Open](Beginner/Data-Types-Deep-Dive/README.md) |
-| Lists, tuples, sets, dicts — operations and when to use | [→ Open](Beginner/Collections/README.md) |
-| Control flow overview, else on loops | [→ Open](Beginner/Control-Flow/README.md) |
-| if, elif, else, truthiness, comparisons, ternary | [→ Open](Beginner/Conditionals/README.md) |
-| for, while, break, continue, sequences, enumerate, zip | [→ Open](Beginner/Loops/README.md) |
-| List/dict/set comprehensions, generator expressions | [→ Open](Beginner/Comprehensions/README.md) |
-| File I/O, read/write, modes, text vs binary, encoding | [→ Open](Beginner/Files/README.md) |
-| Defining functions, parameters vs arguments, defaults, return | [→ Open](Beginner/Functions/README.md) |
-| sys.argv, argparse, CLI, exit codes | [→ Open](Beginner/Command-Line-Args/README.md) |
-| String indexing, slicing, methods, immutability | [→ Open](Beginner/Strings/README.md) |
-| Modules, imports, __name__ == "__main__", code organization | [→ Open](Beginner/Modules-And-Imports/README.md) |
-| Exceptions, try/except/else/finally, raise | [→ Open](Beginner/Error-Handling/README.md) |
-| venv, pip, requirements.txt, isolating dependencies | [→ Open](Beginner/Virtual-Environments/README.md) |
-| `is` vs `==`, identity, mutability, copies | [→ Open](Intermediate/Object-Model/README.md) |
-| Decorators, *args, **kwargs | [→ Open](Intermediate/Functions-And-Decorators/README.md) |
-| EAFP, custom exceptions | [→ Open](Intermediate/Error-Handling/README.md) |
-| `with`, context managers | [→ Open](Advance/Context-Managers/README.md) |
-| Iterators, generators, yield | [→ Open](Advance/Iterators-And-Generators/README.md) |
-| Classes, inheritance, dunder | [→ Open](Advance/OOP/README.md) |
-| GIL, threading, async intro | [→ Open](Advance/Concurrency/README.md) |
-| Metaclasses, class decorators | [→ Open](Expert/Metaprogramming/README.md) |
-| Descriptors, property | [→ Open](Expert/Descriptors/README.md) |
-| asyncio, event loop, tasks | [→ Open](Expert/Async-Deep-Dive/README.md) |
-| pytest, mocking, fixtures | [→ Open](Pro/Testing/README.md) |
-| pyproject.toml, packaging | [→ Open](Pro/Packaging/README.md) |
-| Profiling, C extensions | [→ Open](Pro/Performance/README.md) |
-| Logging, config, production | [→ Open](Pro/Production-Patterns/README.md) |
+| Types, namespaces, LEGB, basics | [Open](Beginner/Fundamentals/README.md) |
+| REPL vs script, how Python runs .py | [Open](Beginner/Execution-Basics/README.md) |
+| Comments, docstrings, PEP 8 | [Open](Beginner/Comments-And-Docstrings/README.md) |
+| print(), input(), formatting | [Open](Beginner/Input-Output/README.md) |
+| Arithmetic, comparison, logical, is, in | [Open](Beginner/Operators/README.md) |
+| Immutables vs mutables, sequences | [Open](Beginner/Data-Types/README.md) |
+| int, float, str, bool, type conversion | [Open](Beginner/Data-Types-Deep-Dive/README.md) |
+| Lists, tuples, sets, dicts — operations and when to use | [Open](Beginner/Collections/README.md) |
+| Control flow overview, else on loops | [Open](Beginner/Control-Flow/README.md) |
+| if, elif, else, truthiness, comparisons, ternary | [Open](Beginner/Conditionals/README.md) |
+| for, while, break, continue, sequences, enumerate, zip | [Open](Beginner/Loops/README.md) |
+| List/dict/set comprehensions, generator expressions | [Open](Beginner/Comprehensions/README.md) |
+| File I/O, read/write, modes, text vs binary, encoding | [Open](Beginner/Files/README.md) |
+| Defining functions, parameters vs arguments, defaults, return | [Open](Beginner/Functions/README.md) |
+| sys.argv, argparse, CLI, exit codes | [Open](Beginner/Command-Line-Args/README.md) |
+| String indexing, slicing, methods, immutability | [Open](Beginner/Strings/README.md) |
+| Modules, imports, __name__ == "__main__", code organization | [Open](Beginner/Modules-And-Imports/README.md) |
+| Exceptions, try/except/else/finally, raise | [Open](Beginner/Error-Handling/README.md) |
+| venv, pip, requirements.txt, isolating dependencies | [Open](Beginner/Virtual-Environments/README.md) |
+| `is` vs `==`, identity, mutability, copies | [Open](Intermediate/Object-Model/README.md) |
+| Decorators, *args, **kwargs | [Open](Intermediate/Functions-And-Decorators/README.md) |
+| EAFP, custom exceptions | [Open](Intermediate/Error-Handling/README.md) |
+| `with`, context managers | [Open](Advance/Context-Managers/README.md) |
+| Iterators, generators, yield | [Open](Advance/Iterators-And-Generators/README.md) |
+| Classes, inheritance, dunder | [Open](Advance/OOP/README.md) |
+| GIL, threading, async intro | [Open](Advance/Concurrency/README.md) |
+| Metaclasses, class decorators | [Open](Expert/Metaprogramming/README.md) |
+| Descriptors, property | [Open](Expert/Descriptors/README.md) |
+| asyncio, event loop, tasks | [Open](Expert/Async-Deep-Dive/README.md) |
+| pytest, mocking, fixtures | [Open](Pro/Testing/README.md) |
+| pyproject.toml, packaging | [Open](Pro/Packaging/README.md) |
+| Profiling, C extensions | [Open](Pro/Performance/README.md) |
+| Logging, config, production | [Open](Pro/Production-Patterns/README.md) |
 
 ---
 
