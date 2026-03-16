@@ -1,2 +1,170 @@
-# software-engineering-interview-prep
-Full-Stack &amp; AI Engineering Interview Preparation Repository covering JavaScript, React, Node.js, Python, System Design, GenAI, DevOps, Cloud, Security, and Machine Coding with detailed explanations and examples.
+
+# Interview Prep — Full Stack (Beginner to Pro)
+
+Structured interview-prep notes: **Gen AI & LLM** and **Python**. Each topic has a learning path from fundamentals to production. Use this page to navigate by **level** or by **topic**.
+
+---
+
+## Topics by level
+
+### Beginner
+
+Foundations: how things work and core concepts.
+
+| Topic | Description | Entry point |
+
+|-------|-------------|-------------|
+
+| **[LLM Fundamentals](GEN-AI/LLM-Fundamentals/README.md)** | How LLMs work: tokens, context window, attention, temperature, sampling | [GEN-AI/LLM-Fundamentals/README.md](GEN-AI/LLM-Fundamentals/README.md) |
+
+| **[Prompt Engineering](GEN-AI/Prompt-Engineering/README.md)** | What is prompt engineering, system vs user prompts, zero-shot vs few-shot | [GEN-AI/Prompt-Engineering/README.md](GEN-AI/Prompt-Engineering/README.md) |
+
+| **[Python](Python/README.md)** | Types, namespaces, control flow, mutability basics | [Python/README.md](Python/README.md) |
+
+---
+
+### Intermediate
+
+Core building blocks: retrieval, evaluation, safety, and language depth.
+
+| Topic | Description | Entry point |
+
+|-------|-------------|-------------|
+
+| **[RAG](GEN-AI/RAG/README.md)** | Retrieval-Augmented Generation: chunking, embeddings, retrieval, vector stores, generation | [GEN-AI/RAG/README.md](GEN-AI/RAG/README.md) |
+
+| **[Evaluation](GEN-AI/Evaluation/README.md)** | Eval sets, retrieval/generation metrics, LLM-as-judge, RAGAS, regression, CI | [GEN-AI/Evaluation/README.md](GEN-AI/Evaluation/README.md) |
+
+| **[Guardrails](GEN-AI/Guardrails/README.md)** | Input/output validation, PII, safety, prompt injection, implementation | [GEN-AI/Guardrails/README.md](GEN-AI/Guardrails/README.md) |
+
+| **[Memory](GEN-AI/Memory/README.md)** | Conversation memory, buffer/summary, entity memory, RAG + memory, privacy | [GEN-AI/Memory/README.md](GEN-AI/Memory/README.md) |
+
+| **[Structured Output](GEN-AI/Structured-Output/README.md)** | Reliable JSON/schema from LLMs, parsing, validation, JSON mode, function calling | [GEN-AI/Structured-Output/README.md](GEN-AI/Structured-Output/README.md) |
+
+| **[Hallucination](GEN-AI/Hallucination/README.md)** | What hallucination is, causes, mitigation (RAG, grounding, citations), detection | [GEN-AI/Hallucination/README.md](GEN-AI/Hallucination/README.md) |
+
+---
+
+### Advanced
+
+Agents, model improvement, and infrastructure.
+
+| Topic | Description | Entry point |
+
+|-------|-------------|-------------|
+
+| **[Agents](GEN-AI/Agents/README.md)** | LLM agents, tools, ReAct, plan-and-execute, implementation, safety | [GEN-AI/Agents/README.md](GEN-AI/Agents/README.md) |
+
+| **[Fine-Tuning](GEN-AI/Fine-Tuning/README.md)** | When to fine-tune vs RAG, LoRA/QLoRA, instruction tuning, data, deployment, RLHF/DPO | [GEN-AI/Fine-Tuning/README.md](GEN-AI/Fine-Tuning/README.md) |
+
+| **[Inference &amp; Serving](GEN-AI/Inference-Serving/README.md)** | Serving LLMs: vLLM, TGI, batching, PagedAttention, quantization, deployment | [GEN-AI/Inference-Serving/README.md](GEN-AI/Inference-Serving/README.md) |
+
+| **[Cost Optimization](GEN-AI/Cost-Optimization/README.md)** | Token usage, caching, model choice, budgets, tracking, API vs self-host | [GEN-AI/Cost-Optimization/README.md](GEN-AI/Cost-Optimization/README.md) |
+
+---
+
+### Expert
+
+Multi-agent systems, workflows, protocols, and multimodal.
+
+| Topic | Description | Entry point |
+
+|-------|-------------|-------------|
+
+| **[Multi-Agents](GEN-AI/Multi-Agents/README.md)** | Multi-agent systems, orchestrator, handoffs, debate, role specialization | [GEN-AI/Multi-Agents/README.md](GEN-AI/Multi-Agents/README.md) |
+
+| **[Agentic Workflow](GEN-AI/Agentic-Workflow/README.md)** | Agentic workflows, decision points, human-in-the-loop, state, observability | [GEN-AI/Agentic-Workflow/README.md](GEN-AI/Agentic-Workflow/README.md) |
+
+| **[MCP](GEN-AI/MCP/README.md)** | Model Context Protocol: servers, tools, resources, clients, security | [GEN-AI/MCP/README.md](GEN-AI/MCP/README.md) |
+
+| **[Multimodal](GEN-AI/Multimodal/README.md)** | Vision + language, VLMs, CLIP, image understanding, multimodal RAG | [GEN-AI/Multimodal/README.md](GEN-AI/Multimodal/README.md) |
+
+---
+
+### Pro
+
+Production readiness, operations, and scale.
+
+| Topic | Description | Entry point |
+
+|-------|-------------|-------------|
+
+| **[Observability](GEN-AI/Observability/README.md)** | Logging, tracing, metrics, trace_id, redaction, SLOs, debugging LLM apps | [GEN-AI/Observability/README.md](GEN-AI/Observability/README.md) |
+
+*(Production and advanced material for other topics live inside each topic’s **Production & Advanced** doc.)*
+
+---
+
+## How to use
+
+-**By level:** Start with **Beginner**, then move through **Intermediate** → **Advanced** → **Expert** → **Pro**.
+
+-**By topic:** Open a topic’s **Entry point** (README) and follow its learning path (e.g. Fundamentals → Strategies → Implementation → Production).
+
+-**By question:** Use each topic’s **Quick reference** (“If they ask…”) inside its README to jump to the right doc.
+
+---
+
+## Folder structure
+
+```
+
+interview-prep/
+
+├── README.md                 ← you are here (all topics by level)
+
+├── Python/                   ← Python interview prep (Beginner–Intermediate)
+
+│   ├── README.md
+
+│   ├── python-fundamentals.md
+
+│   ├── python-object-model-identity-mutability-memory.md
+
+│   └── python-implementation.md
+
+└── GEN-AI/                   ← Gen AI & LLM (Beginner to Pro)
+
+    ├── README.md             ← Gen AI topic index
+
+    ├── LLM-Fundamentals/
+
+    ├── Prompt-Engineering/
+
+    ├── RAG/
+
+    ├── Agents/
+
+    ├── Multi-Agents/
+
+    ├── Agentic-Workflow/
+
+    ├── MCP/
+
+    ├── Memory/
+
+    ├── Evaluation/
+
+    ├── Guardrails/
+
+    ├── Structured-Output/
+
+    ├── Hallucination/
+
+    ├── Inference-Serving/
+
+    ├── Multimodal/
+
+    ├── Cost-Optimization/
+
+    └── Observability/
+
+```
+
+---
+
+## Quick links
+
+-**Gen AI only:** [GEN-AI/README.md](GEN-AI/README.md) — all Gen AI topics in one index.
+
+-**Python only:** [Python/README.md](Python/README.md) — Python fundamentals, object model, implementation.
